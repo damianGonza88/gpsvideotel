@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black !important;
+}
+
+.texto{
+    color: white;
+}
+
+.centrar{
+    margin: 20px auto;
+}
+.contenedor{
+    width: 320px;
+    margin: auto;
+}
+input[type="text"]{
+background: white;
+outline: none;
+height: 40px;
+color:black;
+font-size: 16px;
+width: 100%;
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100%;
+}
+.oculto{
+    visibility: hidden;
+    height: 5px;
+    font-size: 3px;
+}
